@@ -170,7 +170,7 @@ const Box = ({ current, next, resetQuiz, saveAttempt }) => {
           </div>
           <div className="flex flex-col justify-center items-start gap-0">
             <h1>
-              Que : <span>{current + 1}</span> of 10
+              Que : <span>{current + 1}</span> of {quizzes.length}
             </h1>
             <h1>
               Score : <span>{correct}</span>
