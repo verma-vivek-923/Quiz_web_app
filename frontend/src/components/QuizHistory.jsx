@@ -40,7 +40,7 @@ const QuizHistory = () => {
         <span>Home</span>
       </Link>
 
-      <div className="flex w-[70%] flex-col mt-12 justify-between items-center min-h-screen p-24 md:p-6">
+      <div className="flex w-[70%] flex-col mt-12  items-center min-h-screen p-24 md:p-6">
         <h1 className="text-3xl flex items-center gap-4 font-bold mb-6">
           <FaHistory /> Quiz History
         </h1>
@@ -50,9 +50,9 @@ const QuizHistory = () => {
         ) : (
           <ul className="w-full  bg-white shadow-lg rounded-lg px-14 p-4">
             {history.map((attempt, index) => (
-              <li key={index} className="border-b space-y-8 py-2">
-                <span className="font-semibold">Score:</span> {attempt.score} |
-                <span className="ml-2 text-gray-500">{attempt.date}</span>
+              <li key={index} className="border-b space-x-2 py-2">
+                <span className="font-semibold">Score: </span> {attempt.score}  |
+                <span className="ml-2 text-gray-500"> {attempt.date}</span>
               </li>
             ))}
           </ul>
