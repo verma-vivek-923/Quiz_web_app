@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import Result from "./Components/Result";
+import Result from "./components/Result";
 import Start from "./pages/Home";
-import Quiz from "./Components/Quiz";
+import Quiz from "./components/Quiz";
 import { Auth } from "./context/AuthContext"; // Import Auth context
 import Navbar from "./components/Navbar";
 import { Route, Routes, useLocation } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { Auth } from "../Context/AuthContext";
+import { Auth } from "../context/AuthContext";
 import { FaArrowRight } from "react-icons/fa6";
 import { GrPowerReset } from "react-icons/gr";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";

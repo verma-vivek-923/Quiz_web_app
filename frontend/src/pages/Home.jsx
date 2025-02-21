@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
-import { Auth } from "../Context/AuthContext";
+import { Auth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 const Home = ({ startQuiz }) => {
